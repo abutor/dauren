@@ -54,7 +54,7 @@ export default function Home() {
         <div className="row">
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>DHouse - Ваш дом в Астане</h1>
-            <h2>Агентство недвижимости "DHouse" - ваш проводник в мире идеального жилья в Астане. Надежные сделки, лучшие
+            <h2>Агентство недвижимости &quot;DHouse&quot; - ваш проводник в мире идеального жилья в Астане. Надежные сделки, лучшие
               предложения, и профессиональная поддержка от нашей команды риэлторов. Доверьтесь нам и найдем ваш идеальный
               дом вместе!</h2>
             {/* <div><a href="#about" className="btn-get-started scrollto">Get Started</a></div> */}
@@ -213,7 +213,7 @@ export default function Home() {
 
           <div className="section-title">
             <h2>Услуги</h2>
-            <p>Доверьтесь нам в поиске, покупке или аренде недвижимости - "DHouse" сделает этот процесс легким и приятным
+            <p>Доверьтесь нам в поиске, покупке или аренде недвижимости - &quot;DHouse&quot; сделает этот процесс легким и приятным
               для вас..</p>
           </div>
 
@@ -526,8 +526,8 @@ export default function Home() {
         <div className="container">
 
           <div className="section-title">
-            <h2>Наша Команда - Сила "DHouse"</h2>
-            <p>В составе "DHouse" трудится выдающаяся команда профессионалов, готовых предоставить вам непревзойденный
+            <h2>Наша Команда - Сила &quot;DHouse&quot;</h2>
+            <p>В составе &quot;DHouse&quot; трудится выдающаяся команда профессионалов, готовых предоставить вам непревзойденный
               уровень обслуживания в сфере недвижимости. Наши риэлторы - это сплоченная группа опытных экспертов,
               преследующих общую цель - сделать процесс поиска и приобретения недвижимости максимально приятным и успешным
               для каждого клиента.</p>
@@ -774,13 +774,5 @@ export default function Home() {
     <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i
       className="bi bi-arrow-up-short"></i></a>
 
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <script src="assets/js/main.js"></script>
   </>
 }
