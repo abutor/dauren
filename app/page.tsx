@@ -12,7 +12,7 @@ export default function Home() {
       <div className="container d-flex align-items-center justify-content-between">
 
         {/* <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a> */}
-        <a style={{ fontSize: '15pt', fontWeight: 'bold' }}>DHouse</a>
+        <a style={{ fontSize: '15pt', fontWeight: 'bold' }}>DHOUSE estate</a>
 
         <nav id="navbar" className="navbar">
           <ul>
@@ -39,7 +39,7 @@ export default function Home() {
               </ul>
             </li>  */}
             <li><a className="nav-link scrollto" href="#contact">Контакты</a></li>
-            <li><a onClick={() => hidden(!show)} className="nav-link scrollto" href="#team">{show ? 'Скрыть' : 'Показать'}</a></li>
+            {/* <li><a onClick={() => hidden(!show)} className="nav-link scrollto" href="#team">{show ? 'Скрыть' : 'Показать'}</a></li> */}
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>{/* .navbar  */}
@@ -53,10 +53,8 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>DHouse - Ваш дом в Астане</h1>
-            <h2>Агентство недвижимости &quot;DHouse&quot; - ваш проводник в мире идеального жилья в Астане. Надежные сделки, лучшие
-              предложения, и профессиональная поддержка от нашей команды риэлторов. Доверьтесь нам и найдем ваш идеальный
-              дом вместе!</h2>
+            <h1>DHOUSE estate - Ваш партнер в Астане</h1>
+            <h2>Ежегодно производятся на рынке недвижимости тысяча сделок разного вида, в этом деле принципиально важно выбрать надежную компанию, а агентство недвижимости DHOUSE estate делает ставку именно на качество и быстрое решение запросов клиента.</h2>
             {/* <div><a href="#about" className="btn-get-started scrollto">Get Started</a></div> */}
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img">
@@ -81,23 +79,23 @@ export default function Home() {
             <div
               className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
               <h3>Найдем ваш идеальный дом!</h3>
-              <p>Мы решаем проблему поиска идеального жилья в Астане, обеспечивая надежные и выгодные сделки.</p>
+              <p>Мы ведем контроль выполняемой работы и осуществление координации специалистов.</p>
 
               <div className="icon-box">
                 <div className="icon"><i className="bx bx-fingerprint"></i></div>
-                <h4 className="title"><a href="">Индивидуальный подход</a></h4>
-                <p className="description">Подбираем объекты, соответствующие вашим требованиям.</p>
+                <h4 className="title">Индивидуальный подход</h4>
+                <p className="description">Мы помогаем нашим клиентам выгодно приобретать продавать или сдавать недвижимость в Астане.</p>
               </div>
 
               <div className="icon-box">
                 <div className="icon"><i className="bx bx-gift"></i></div>
-                <h4 className="title"><a href="">Лучшие предложения</a></h4>
-                <p className="description">Доступ к актуальным и эксклюзивным предложениям на рынке недвижимости.</p>
+                <h4 className="title">Лучшие предложения</h4>
+                <p className="description">Секрет успеха нашей компаний честность и профессионализм сотрудников нашей компаний.</p>
               </div>
 
               <div className="icon-box">
                 <div className="icon"><i className="bx bx-atom"></i></div>
-                <h4 className="title"><a href="">Профессиональная поддержка</a></h4>
+                <h4 className="title">Профессиональная поддержка</h4>
                 <p className="description">Квалифицированные риэлторы обеспечивают успешные и беззаботные сделки.</p>
               </div>
 
@@ -213,7 +211,7 @@ export default function Home() {
 
           <div className="section-title">
             <h2>Услуги</h2>
-            <p>Доверьтесь нам в поиске, покупке или аренде недвижимости - &quot;DHouse&quot; сделает этот процесс легким и приятным
+            <p>Доверьтесь нам в поиске, покупке или аренде недвижимости - &quot;DHOUSE estate&quot; сделает этот процесс легким и приятным
               для вас..</p>
           </div>
 
@@ -221,28 +219,49 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="icon-box">
                 <div className="icon"><i className="bi bi-cash-stack" style={{ color: "#ff689b" }}></i></div>
-                <h4 className="title"><a href="">Подбор Идеального Жилья</a></h4>
-                <p className="description">Мы предоставляем услуги по индивидуальному подбору недвижимости, учитывая ваши
-                  требования и предпочтения. Наша цель - найти идеальный дом для вас.</p>
+                <h4 className="title">Арендодателю</h4>
+                <p className="description">
+                  <ul>
+                    <li>поможем управлять недвижимостью в Ваше отсутствие</li>
+                    <li>организовать строительные работы и ремонт</li>
+                    <li>организовать трансфер аренда машины</li>
+                    <li>подключить-зарегистрировать телефон и интернет</li>
+                    <li>приобрести мебель и обустроить жилье</li>
+                    <li>работа  с коммунальными службами</li>
+                  </ul></p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="icon-box">
                 <div className="icon"><i className="bi bi-calendar4-week" style={{ color: '#e9bf06' }}></i></div>
-                <h4 className="title"><a href="">Профессиональные Сделки</a></h4>
-                <p className="description">Наша команда квалифицированных риэлторов обеспечивает проведение беззаботных и
-                  успешных сделок с недвижимостью, гарантируя ваше спокойствие и уверенность.</p>
+                <h4 className="title">Арендатору</h4>
+                <p className="description">
+                  <ul>
+                    <li>Большой ассортимент жилплощади начиная с эконом до премиум класса</li>
+                    <li>Профессионально подобрать недвижимость по вашим критериям</li>
+                    <li>Получить вид на жительства в Астане</li>
+                    <li>Гарантия лучшей цены</li>
+                    <li>Служба поддержки 24/7</li>
+                  </ul>
+                </p>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div className="icon-box">
                 <div className="icon"><i className="bi bi-chat-text" style={{ color: '#3fcdc7' }}></i></div>
-                <h4 className="title"><a href="">Эксклюзивные Предложения</a></h4>
-                <p className="description">Пользуйтесь доступом к лучшим и актуальным предложениям на рынке недвижимости в
-                  Астане. Мы предлагаем эксклюзивные варианты для вашего выбора.</p>
+                <h4 className="title">Купля продажа</h4>
+                <p className="description">
+                  <ul>
+                    <li>Законность и уверенность в сделке</li>
+                    <li>Получить услуги юриста нотариуса</li>
+                    <li>Открыть собственный бизнес и правильно инвестировать с проcчетом окупаемости .</li>
+                    <li>Составить завещание</li>
+                    <li>Платить налог на имущество</li>
+                  </ul>
+                </p>
               </div>
-            </div>
+              {/* </div>
             <div className="col-lg-4 col-md-6" data-wow-delay="0.1s">
               <div className="icon-box">
                 <div className="icon"><i className="bi bi-credit-card-2-front" style={{ color: '#41cf2e' }}></i></div>
@@ -266,7 +285,7 @@ export default function Home() {
                 <h4 className="title"><a href="">Рыночный Анализ</a></h4>
                 <p className="description">Мы регулярно проводим мониторинг цен на рынке, предоставляя вам актуальную
                   информацию для принятия обоснованных решений о покупке или аренде недвижимости</p>
-              </div>
+              </div>*/}
             </div>
           </div>
 
@@ -526,8 +545,8 @@ export default function Home() {
         <div className="container">
 
           <div className="section-title">
-            <h2>Наша Команда - Сила &quot;DHouse&quot;</h2>
-            <p>В составе &quot;DHouse&quot; трудится выдающаяся команда профессионалов, готовых предоставить вам непревзойденный
+            <h2>Наша Команда - Сила &quot;DHOUSE estate&quot;</h2>
+            <p>В составе &quot;DHOUSE estate&quot; трудится выдающаяся команда профессионалов, готовых предоставить вам непревзойденный
               уровень обслуживания в сфере недвижимости. Наши риэлторы - это сплоченная группа опытных экспертов,
               преследующих общую цель - сделать процесс поиска и приобретения недвижимости максимально приятным и успешным
               для каждого клиента.</p>
